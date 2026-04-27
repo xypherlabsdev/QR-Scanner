@@ -184,23 +184,32 @@
 
         <div class="card">
             <h2><span class="num">1</span> Introduction</h2>
-            <p>Welcome to <strong>QRScan Pro</strong> ("we," "our," or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. We are committed to protecting your privacy and ensuring transparency in how we handle your data.</p>
-            <p>By using QRScan Pro, you agree to the collection and use of information as described in this policy. If you do not agree, please discontinue use of the app.</p>
+            <p>Welcome to <strong>QRScan Pro</strong> ("we," "our," or "us"), developed by <strong>Xypher Labs</strong>. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application available on the Google Play Store (package: <em>com.xypher.qrscanpro</em>).</p>
+            <p>We are committed to protecting your privacy and ensuring transparency in how we handle your data. By using QRScan Pro, you agree to the collection and use of information as described in this policy. If you do not agree, please discontinue use of the app.</p>
         </div>
 
         <div class="card">
             <h2><span class="num">2</span> Information We Collect</h2>
-            <p><strong>Camera Access:</strong> We access your device camera solely for scanning QR codes and barcodes. Camera data is processed locally on your device and is never transmitted to external servers.</p>
-            <p><strong>Gallery/Photo Access:</strong> We access your gallery only when you choose to scan a QR code from an existing image. This data remains on your device.</p>
-            <p><strong>Scan History:</strong> QR codes you scan are stored locally on your device in an encrypted database. This data is never uploaded to our servers.</p>
-            <p><strong>User Preferences:</strong> App settings such as theme, language, sound, and vibration preferences are stored locally on your device.</p>
-            <p><strong>Analytics Data:</strong> We use Firebase Analytics to collect anonymized usage data, including:</p>
+            <p>We collect the following categories of information:</p>
+            <p><strong>Camera Access:</strong> We access your device camera solely for scanning QR codes and barcodes in real time. The camera feed is processed locally on your device and is never recorded, stored, or transmitted to external servers.</p>
+            <p><strong>Photo Gallery Access:</strong> Only when you explicitly choose to scan a QR code from a gallery image. The image is processed locally and not uploaded to any server.</p>
+            <p><strong>Scan &amp; Generation History:</strong> QR codes you scan or generate are stored locally on your device only. This data is not uploaded to our servers.</p>
+            <p><strong>App Preferences:</strong> Settings such as theme, language, scan sound, vibration, and consent state are stored locally on your device.</p>
+            <p><strong>Advertising Identifiers &amp; Ad Data:</strong> Through Google AdMob (see Section 4), we collect:</p>
+            <ul>
+                <li>Your <strong>Advertising ID</strong> (a resettable identifier you control via Android Settings)</li>
+                <li><strong>IP address</strong> and approximate location (city or country level only)</li>
+                <li>Device type, OS version, app version, language, and timezone</li>
+                <li>Ad interactions (impressions, clicks, view-throughs)</li>
+            </ul>
+            <p><strong>Analytics &amp; Crash Data:</strong> Through Firebase, we collect anonymized:</p>
             <ul>
                 <li>App usage patterns and feature interactions</li>
                 <li>Device type, operating system version, and app version</li>
-                <li>Crash reports and performance metrics</li>
+                <li>Crash reports, stack traces, and performance metrics</li>
                 <li>General geographic region (country level)</li>
             </ul>
+            <p><strong>Consent State:</strong> Your GDPR/CCPA consent choices are stored locally and shared with Google's User Messaging Platform (UMP) per applicable regulations.</p>
         </div>
 
         <div class="card">
@@ -208,54 +217,135 @@
             <p>We use the collected information for the following purposes:</p>
             <ul>
                 <li>To provide and maintain QR code scanning and generation functionality</li>
-                <li>To store your scan history for quick access and reference</li>
-                <li>To remember your app preferences and settings</li>
+                <li>To store your scan and generation history for quick access and reference</li>
+                <li>To remember your app preferences and settings across sessions</li>
+                <li>To serve relevant advertisements (personalized only with your consent)</li>
                 <li>To analyze app performance, identify bugs, and improve user experience</li>
+                <li>To respect your consent choices (e.g., showing personalized vs. non-personalized ads)</li>
+                <li>To comply with legal obligations under GDPR, CCPA, and other applicable laws</li>
             </ul>
         </div>
 
         <div class="card">
-            <h2><span class="num">4</span> Data Storage &amp; Security</h2>
-            <p>Your scan history and preferences are stored <strong>locally on your device</strong> using encrypted databases and secure storage mechanisms. We do not store personal data on external servers.</p>
-            <p>We implement industry-standard security measures to protect your information. However, no method of electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
-        </div>
-
-        <div class="card">
-            <h2><span class="num">5</span> Data Retention &amp; Deletion</h2>
-            <p>All locally stored data (scan history, preferences) can be deleted at any time through the app's Settings. You can also clear all data by uninstalling the app.</p>
-            <p>Anonymized analytics data collected by Firebase is retained according to Google's data retention policies.</p>
-        </div>
-
-        <div class="card">
-            <h2><span class="num">6</span> Children's Privacy</h2>
-            <p>QRScan Pro is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will take steps to remove such data.</p>
-        </div>
-
-        <div class="card">
-            <h2><span class="num">7</span> Your Rights</h2>
-            <p>Depending on your jurisdiction, you may have the following rights:</p>
+            <h2><span class="num">4</span> Advertising &amp; Google AdMob</h2>
+            <p>QRScan Pro is a free, ad-supported application. We use <strong>Google AdMob</strong> to display advertisements, which include:</p>
             <ul>
-                <li>Access, correct, or delete your personal data</li>
-                <li>Withdraw consent for data collection</li>
-                <li>Request a copy of data collected about you</li>
-                <li>Lodge a complaint with a data protection authority</li>
+                <li><strong>Banner ads</strong> &mdash; small, anchored ads at the bottom of certain screens</li>
+                <li><strong>Interstitial ads</strong> &mdash; full-screen ads shown at natural transition points</li>
+                <li><strong>App open ads</strong> &mdash; shown briefly when you return to the app from background</li>
+                <li><strong>Rewarded ads</strong> &mdash; optional ads you may choose to view in exchange for unlocking specific in-app features</li>
+            </ul>
+            <p>AdMob may use your data to deliver and measure ads, and may share data with its partners as described in <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. AdMob's collection of an Advertising ID is governed by Google's <a href="https://support.google.com/googleplay/android-developer/answer/6048248" target="_blank" rel="noopener">Advertising ID policy</a>.</p>
+            <p><strong>Personalized vs. Non-Personalized Ads:</strong></p>
+            <ul>
+                <li><strong>EEA, UK, and Switzerland:</strong> We obtain your explicit consent through Google's User Messaging Platform (UMP) before serving personalized ads, in accordance with the General Data Protection Regulation (GDPR) and ePrivacy Directive. If you decline, you will see only non-personalized ads (limited targeting based on context, not your profile).</li>
+                <li><strong>California and other regulated US states:</strong> You may opt out of the "sale" or "sharing" of your personal information for advertising purposes via the in-app consent dialog.</li>
+                <li><strong>Other regions:</strong> Personalized ads may be served by default, subject to your device's Advertising ID settings.</li>
+            </ul>
+            <p>You can withdraw or change your consent at any time via <strong>Settings &rarr; Privacy Options</strong> within the app (where applicable to your region).</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="num">5</span> Third-Party Services</h2>
+            <p>We use the following third-party services to operate the app:</p>
+            <ul>
+                <li><strong>Google AdMob</strong> &mdash; advertising (see Section 4) &middot; <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+                <li><strong>Google User Messaging Platform (UMP)</strong> &mdash; consent management for GDPR/CCPA compliance</li>
+                <li><strong>Google Analytics for Firebase</strong> &mdash; anonymized usage analytics &middot; <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+                <li><strong>Firebase Crashlytics</strong> &mdash; crash and error reporting</li>
+                <li><strong>Google Play Billing</strong> &mdash; in-app purchases (where offered)</li>
+                <li><strong>Google ML Kit</strong> &mdash; on-device barcode and QR code detection. ML Kit processes images locally on your device and does not transmit camera data to Google's servers.</li>
+            </ul>
+            <p>Each service is bound by its own privacy policy. By using QRScan Pro, you also agree to the privacy practices of these third parties as they apply to data shared with them.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="num">6</span> Data Storage &amp; Security</h2>
+            <p>Your scan history, generated codes, and app preferences are stored <strong>locally on your device</strong> using Android's standard storage mechanisms (Room database and DataStore Preferences). This data is not uploaded to our servers.</p>
+            <p>Data shared with third-party services (AdMob, Firebase) is transmitted over <strong>HTTPS / TLS-encrypted</strong> connections and is governed by their respective security practices.</p>
+            <p>While we implement industry-standard security measures, no method of electronic transmission or storage is 100% secure. We cannot guarantee absolute security and ask you to take reasonable precautions to protect your device.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="num">7</span> Data Sharing &amp; Disclosure</h2>
+            <p>We do <strong>not sell</strong> your personal information. We share data only in the following circumstances:</p>
+            <ul>
+                <li><strong>With third-party services</strong> listed in Section 5, strictly to operate the app (e.g., serving ads, crash reporting)</li>
+                <li><strong>For legal compliance</strong> &mdash; if required by law, court order, or governmental request</li>
+                <li><strong>To protect rights and safety</strong> &mdash; to detect, prevent, or address fraud, security, or technical issues</li>
+                <li><strong>With your explicit consent</strong> &mdash; for any other purpose disclosed at the time of collection</li>
             </ul>
         </div>
 
         <div class="card">
-            <h2><span class="num">8</span> Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. We encourage you to review this policy periodically. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+            <h2><span class="num">8</span> Data Retention &amp; Deletion</h2>
+            <p>All locally stored data (scan history, generation history, preferences) can be deleted at any time:</p>
+            <ul>
+                <li>Through the app's <strong>Settings</strong> (clear history, reset preferences)</li>
+                <li>By <strong>uninstalling the app</strong>, which removes all locally stored data</li>
+                <li>By clearing the app's storage via Android's system settings</li>
+            </ul>
+            <p>Anonymized analytics and crash data collected by Firebase is retained according to <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase's data retention policies</a> (typically 14 months for default Analytics events). Advertising data retention is governed by Google AdMob's policies.</p>
         </div>
 
         <div class="card">
-            <h2><span class="num">9</span> Contact Us</h2>
-            <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+            <h2><span class="num">9</span> Your Rights Under GDPR (EEA, UK, Switzerland)</h2>
+            <p>If you are located in the European Economic Area, the United Kingdom, or Switzerland, you have the following rights under the GDPR / UK GDPR / Swiss FADP:</p>
+            <ul>
+                <li><strong>Right of access</strong> &mdash; request a copy of personal data we process about you</li>
+                <li><strong>Right to rectification</strong> &mdash; correct inaccurate or incomplete data</li>
+                <li><strong>Right to erasure</strong> ("right to be forgotten") &mdash; request deletion of your data</li>
+                <li><strong>Right to restrict processing</strong> &mdash; limit how we use your data</li>
+                <li><strong>Right to data portability</strong> &mdash; receive your data in a structured, machine-readable format</li>
+                <li><strong>Right to object</strong> &mdash; opt out of certain types of processing, including direct marketing</li>
+                <li><strong>Right to withdraw consent</strong> &mdash; revoke consent at any time via <strong>Settings &rarr; Privacy Options</strong></li>
+                <li><strong>Right to lodge a complaint</strong> &mdash; with your local data protection authority</li>
+            </ul>
+            <p>To exercise these rights, contact us at the email below. We will respond within 30 days.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="num">10</span> Your Rights Under CCPA / CPRA (California &amp; Other US States)</h2>
+            <p>If you are a resident of California, Virginia, Colorado, Connecticut, Utah, or other regulated US states, you have the following rights:</p>
+            <ul>
+                <li><strong>Right to know</strong> &mdash; what categories of personal information we collect, use, and share</li>
+                <li><strong>Right to delete</strong> &mdash; request deletion of your personal information</li>
+                <li><strong>Right to opt out of "sale" or "sharing"</strong> &mdash; available via the in-app consent dialog or <strong>Settings &rarr; Privacy Options</strong></li>
+                <li><strong>Right to limit use of sensitive personal information</strong></li>
+                <li><strong>Right to non-discrimination</strong> &mdash; we will not deny service or charge different prices for exercising your rights</li>
+            </ul>
+            <p>We do not sell personal information in the traditional sense, but the use of advertising identifiers and the sharing of data with AdMob may qualify as "sharing" under California law. You may opt out at any time.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="num">11</span> Children's Privacy</h2>
+            <p>QRScan Pro is intended for users who are at least <strong>13 years of age</strong> (or 16 years in EU member states where the GDPR sets a higher digital consent age, or such other age as required by your jurisdiction).</p>
+            <p>The app is not directed at children, and we do not knowingly collect personal information from children below the applicable age of consent. If you believe a child has provided us with personal information, please contact us and we will take prompt steps to delete such data.</p>
+            <p>Parents and guardians are encouraged to supervise their children's use of any mobile application.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="num">12</span> International Data Transfers</h2>
+            <p>The third-party services we use (Google AdMob, Firebase) may process your data on servers located outside your country of residence, including in the United States. These transfers are governed by the third parties' compliance frameworks, including the EU-US Data Privacy Framework and Standard Contractual Clauses (SCCs) where applicable.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="num">13</span> Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or for other operational reasons. Changes will be posted on this page with a revised effective date.</p>
+            <p>For material changes, we will make reasonable efforts to notify you through the app or other appropriate means. We encourage you to review this policy periodically. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+        </div>
+
+        <div class="card">
+            <h2><span class="num">14</span> Contact Us</h2>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us at:</p>
             <p><strong>Email:</strong> <a href="mailto:xypherlabs.dev@gmail.com">xypherlabs.dev@gmail.com</a></p>
             <p><strong>Developer:</strong> Xypher Labs</p>
+            <p><strong>App package:</strong> <em>com.xypher.qrscanpro</em></p>
+            <p><strong>Terms &amp; Conditions:</strong> <a href="https://xypherlabsdev.github.io/BarCodeScannerTermsConditions-Public/" target="_blank" rel="noopener">https://xypherlabsdev.github.io/BarCodeScannerTermsConditions-Public/</a></p>
         </div>
 
         <div class="effective-date">
-            Effective Date: April 09, 2026 &middot; QRScan Pro by Xypher Labs
+            Effective Date: April 27, 2026 &middot; QRScan Pro by Xypher Labs
         </div>
     </div>
 </body>
